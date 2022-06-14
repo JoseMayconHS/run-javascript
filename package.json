@@ -4,17 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "webpack --watch --config dev.webpack.config.js"
+    "dev": "webpack --watch --config dev.webpack.config.js"
   },
   "author": "Maycon Silva",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "3.9.1",
-    "gulp-concat": "2.6.1",
-    "gulp-sass": "4.0.1",
-    "gulp-uglifycss": "1.0.9",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglifycss": "^1.1.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {}
 }
