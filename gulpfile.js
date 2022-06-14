@@ -9,5 +9,5 @@ gulp.task("default", () => {
     .pipe(sass().on("error", sass.logError))
     .pipe(concat("index.min.css"))
     .pipe(uglifycss({ uglyComments: true }))
-    .pipe(gulp.dest("./src/public/css"));
+    .pipe(gulp.dest("./public/css"));
 });
