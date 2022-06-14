@@ -4,7 +4,7 @@ Projetinho de corrida em javascript.
 
 ## Projeto online
 
-[Clique aqui]()
+[Clique aqui](https://run-javascript.vercel.app/)
 
 ## Tecnologias:
 

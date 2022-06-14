@@ -1,12 +1,13 @@
-const gulp = require('gulp')
-const sass = require('gulp-sass')
-const concat = require('gulp-concat')
-const uglifycss = require('gulp-uglifycss')
+const gulp = require("gulp");
+const sass = require("gulp-sass");
+const concat = require("gulp-concat");
+const uglifycss = require("gulp-uglifycss");
 
-gulp.task('default', () => {
-  gulp.src('scss/index.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(concat('index.min.css'))
-    .pipe(uglifycss({ "uglyComments": true }))
-    .pipe(gulp.dest('./src/css'))
-})
+gulp.task("default", () => {
+  gulp
+    .src("scss/index.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(concat("index.min.css"))
+    .pipe(uglifycss({ uglyComments: true }))
+    .pipe(gulp.dest("./src/public/css"));
+});
